@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: "Tillana", sans-serif
 }
 
-body, .navbar {
+.navbar, .home-callout {
     
     background: #EFEFBB; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #EFEFBB , #D4D3DD); /* Chrome 10-25, Safari 5.1-6 */
@@ -29,6 +29,12 @@ body, .navbar {
             
 }
 
-.navbar {
+.navbar, {
     border: none;
 }
+
+.home-callout {
+    color: black;
+    margin-top: -20px;
+    padding-bottom: 50px;
+ }
