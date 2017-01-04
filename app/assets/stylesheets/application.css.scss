@@ -20,7 +20,7 @@
 @import "font-awesome";
 
 //Typography styles
-h1, h2, h3 {
+h1, {
     font-family: "Tillana", sans-serif
 }
 
@@ -70,6 +70,13 @@ h1, h2, h3 {
     padding-bottom: 50px;
  }
 
+.slogan {
+    color: white;
+}
 .alert-notice {
     display: none;
+}
+
+.home-signup-links {
+    margin-top: 30px; 
 }
